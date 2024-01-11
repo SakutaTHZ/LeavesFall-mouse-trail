@@ -7,7 +7,7 @@ const customcolors = ["darkgrey","grey","lightgrey","white"] // change this to y
 const trailmode = ["trailfall1","trailfall2","trailfall3"]
 
 const animationTiming = 1
-const spawnDistance = 25
+const spawnDistance = 5
 const particleSize = 5  
 const particleOpacity = 1
 
