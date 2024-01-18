@@ -1,5 +1,5 @@
 // colorMode | 0 - default | 1 - pastel mode | 2 - Custom Color
-var colorMode = 1
+var colorMode = 0
 
 var defaultcolors = ["#FFB534","#FBF6EE","#C1F2B0","#65B741","#D2DE32"]
 var customcolors = ["darkgrey","grey","lightgrey","white"] // change this to your own preference
@@ -7,7 +7,7 @@ var customcolors = ["darkgrey","grey","lightgrey","white"] // change this to you
 const trailmode = ["trailfall1","trailfall2","trailfall3"]
 
 var animationTiming = 1
-var spawnDistance = 5
+var spawnDistance = 25
 var particleSize = 5  
 var particleOpacity = 1
 
