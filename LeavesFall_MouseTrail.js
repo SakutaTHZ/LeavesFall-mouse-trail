@@ -1,15 +1,15 @@
 // colorMode | 0 - default | 1 - pastel mode | 2 - Custom Color
-const colorMode = 1
+var colorMode = 1
 
-const defaultcolors = ["#FFB534","#FBF6EE","#C1F2B0","#65B741","#D2DE32"]
-const customcolors = ["darkgrey","grey","lightgrey","white"] // change this to your own preference
+var defaultcolors = ["#FFB534","#FBF6EE","#C1F2B0","#65B741","#D2DE32"]
+var customcolors = ["darkgrey","grey","lightgrey","white"] // change this to your own preference
 
 const trailmode = ["trailfall1","trailfall2","trailfall3"]
 
-const animationTiming = 1
-const spawnDistance = 5
-const particleSize = 5  
-const particleOpacity = 1
+var animationTiming = 1
+var spawnDistance = 5
+var particleSize = 5  
+var particleOpacity = 1
 
 // Set data 
 const selectRandomColor = ()=> colorMode == 0 ? defaultcolors[Math.floor(Math.random()*(defaultcolors.length-1))] : colorMode == 1 ? getPastelColor() : customcolors[Math.floor(Math.random()*(customcolors.length-1))]
